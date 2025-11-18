@@ -7,12 +7,12 @@ app.get('/ping', async (req, res) => {
   const requestOptions = {
   'method': 'GET',
   'headers': {
-    'x-api-key': 'u7ixv1qfxtw4stxdcu4qqj32',
+    'x-api-key': 'fake',
   },
   };
 
   const response = await fetch(
-    'https:///api.etsy.com/v3/application/openapi-ping',
+    'https://api.etsy.com/v3/application/openapi-ping',
     requestOptions
   );
 
