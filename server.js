@@ -5,7 +5,7 @@ const app = express()
 
 app.get('/ping', async (req, res) => {
   const requestOptions = {
-  'metho': 'GET',
+  'method': 'GET',
   'headers': {
     'x-api-key': 'u7ixv1qfxtw4stxdcu4qqj32',
   },
