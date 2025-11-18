@@ -12,7 +12,7 @@ app.get('/ping', async (req, res) => {
   };
 
   const response = await fetch(
-    'https://api.etsy.com/v3/application/openapi-ping',
+    'https:///api.etsy.com/v3/application/openapi-ping',
     requestOptions
   );
 
